@@ -8,7 +8,7 @@ app = FastAPI()
 # ✅ เปิด CORS สำหรับ frontend ที่ localhost:3000
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["emotion-classification-ashen.vercel.app"],
+    allow_origins=["https://emotion-classification-ashen.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
